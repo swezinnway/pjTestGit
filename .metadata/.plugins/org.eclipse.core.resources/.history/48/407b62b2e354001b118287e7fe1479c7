@@ -3,7 +3,6 @@ package com.bestbright.hibernate.onetomany.model;
 public class Teacher {
 private long teacherId;
 private String teacherName;
-private String nrc;
 public Teacher(){
 	
 }
@@ -18,12 +17,6 @@ public String getTeacherName() {
 }
 public void setTeacherName(String teacherName) {
 	this.teacherName = teacherName;
-}
-public String getNrc() {
-	return nrc;
-}
-public void setNrc(String nrc) {
-	this.nrc = nrc;
 }
 
 }
